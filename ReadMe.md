@@ -13,21 +13,20 @@ The UI Portfolio is designed to:
     Provide a clean, professional layout suitable for portfolio websites.
 
 Group Members
-First Name | Last Name | Email Address
-Michael | Sylvester | slymike63@gmail.com
-Nokuthula | Sepenyane | nsepenyane@yahoo.com
-Brian | Kabaki | bryankiarie77@gmail.com
-Frankline | Mwangi | mwangifrankline18@gmail.com
-Ajisegiri | Sedomo | sedomoajisegiri@gmail.com
-Patience | Musau | peshycate259@gmail.com
-Brian | Muthomi | brianmuthomi320@gmail.com
-Mary | Abbah | maryabbah2000@gmail.com
-Sailas | Langat | sambusailas@gmail.com
-Ngozi | Kolapo | nglizzy2014@gmail.com
-Michael | Oluwole | michaeloluwole229@gmail.com
-Evalyne | Simon | evalynemutheu86@gmail.com
-Gilbert | Isanjili Mwanje | gmwanje.gm@gmail.com
-Mahad | Gabow | abdifarhan080@gmail.com
+michael	sylvester	slymike63@gmail.com	
+nokuthula	sepenyane	nsepenyane@yahoo.com	
+brian	kabaki	bryankiarie77@gmail.com	
+frankline	mwangi	mwangifrankline18@gmail.com	
+ajisegiri	sedomo	sedomoajisegiri@gmail.com	
+patience	musau	peshycate259@gmail.com	
+brian	muthomi	brianmuthomi320@gmail.com	
+mary	abbah	maryabbah2000@gmail.com	
+sailas	langat	sambusailas@gmail.com
+ngozi	kolapo	nglizzy2014@gmail.com	
+michael	oluwole	michaeloluwole229@gmail.com	
+evalyne	simon	evalynemutheu86@gmail.com	
+gilbert	isanjili mwanje	gmwanje.gm@gmail.com	
+mahad	gabow	abdifarhan080@gmail.com
 
 Technologies Used
 
