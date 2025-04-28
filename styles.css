@@ -1,0 +1,492 @@
+/* Global Styles */
+:root {
+    --primary-color: #19a986;
+    --dark-color: rgb(25, 38, 21);
+    --light-color: #f5f5f5;
+    --text-color: #333;
+    --border-color: #e9e9e9;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #148b72;
+    border-color: #148b72;
+}
+
+.btn-outline-light {
+    border-color: #ddd;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border-color: #ddd;
+    color: var(--text-color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f8f9fa;
+    color: var(--text-color);
+}
+
+.section-subtitle {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.navbar-wrapper {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    padding: 20px 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand i {
+    margin-right: 8px;
+}
+
+.nav-link {
+    color: #fff !important;
+    padding: 10px 15px !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.hire-me-btn {
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 8px 20px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hire-me-btn:hover {
+    background-color: #148b72;
+    color: #fff !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: var(--dark-color);
+    padding: 200px 0 100px;
+    color: #fff;
+    position: relative;
+}
+
+.hero-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.1);
+    -webkit-text-stroke: 1px #fff;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.hero-image {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+
+/* Biography Section */
+.biography-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.biography-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.biography-text {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: var(--text-color);
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Services Section */
+.services-section {
+    background-color: var(--light-color);
+    padding: 80px 0;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: var(--light-color);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.more-services {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.more-services i {
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.more-services:hover i {
+    transform: translateX(5px);
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.skills-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.specialty-section {
+    margin-top: 30px;
+}
+
+.skill-bar-container {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    height: 8px;
+    background-color: var(--light-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+/* Services Icons Section */
+.services-icons {
+    background-color: var(--light-color);
+    padding: 80px 0;
+}
+
+.service-icon-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.service-icon-item i {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service-icon-item h5 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Statistics Section */
+.statistics-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.statistic-item {
+    margin-bottom: 30px;
+}
+
+.statistic-item h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.statistic-item p {
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 100px 0;
+    background-color: var(--light-color);
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Brand Logos */
+.brand-logos {
+    padding: 60px 0;
+    background-color: #1e8269;
+}
+
+.logo-item {
+    padding: 15px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo i {
+    margin-right: 10px;
+}
+
+.footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-contact span {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.footer-copyright {
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.7);
+}
+
+.footer-social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: var(--primary-color);
+}
+
+/* Side Menu */
+.side-menu {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    margin-bottom: 5px;
+}
+
+.side-menu a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: var(--dark-color);
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    transition: all 0.3s ease;
+}
+
+.side-menu a i {
+    margin-right: 10px;
+}
+
+.side-menu a:hover {
+    background-color: var(--primary-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-wrapper {
+        background-color: var(--dark-color);
+        position: relative;
+        padding: 10px 0;
+    }
+    
+    .hero-section {
+        padding: 100px 0;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .biography-image, .skills-image {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .footer-contact span {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .side-menu {
+        display: none;
+    }
+}
